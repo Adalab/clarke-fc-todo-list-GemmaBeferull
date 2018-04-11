@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+.background {
+width: 100vw;
+height: 100vh;
+background-color: #008080;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+hr {
+  background-color: #008080;
+}
+img {
+  width: 48px;
+  height: 48px;
+}
+
+.day{
+  width: 40vw;
+  height: 60vh;
+  background-color: white;
+
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin:10px 15px 10px 10px;
+}
+
+.daynumber {
+  font-size: 40px;
+  color: #008080;
+  font-weight: bold;
+  margin-right: 15px;
+
+}
+
+.date {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.datecontainer {
+  display: flex;
+}
+
+.month-year {
+  margin-top: 8px;
+}
+.addButton {
+color: #008080;
+  border-radius: 50%;
+  border-color: #008080;
+  background-color: inherit;
+font-size: 24px;
+
+
+}
